@@ -1,0 +1,12 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "file parser",
+  "main": "src/app.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "flask --app src/app --debug run"
+  },
+  "author": "walid",
+  "license": "ISC"
+}
