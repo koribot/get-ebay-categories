@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/app"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/extract",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "chrome-extension://eicdpgbknpihdhckcknjkkjignmcefpd"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "chrome-extension://ikfpolbfdnihjnadfodochmagdagpbik"
+        }
+      ]
+    }
+  ]
+}
