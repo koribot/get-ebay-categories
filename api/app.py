@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import requests
-from langchain.document_loaders import PyPDFLoader
 from bs4 import BeautifulSoup
 import requests
 from flask_cors import CORS
