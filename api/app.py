@@ -53,8 +53,8 @@ def category():
     try:
         # Get the URL from the request's JSON data
         # data = request.json
-        # url = 'https://pages.ebay.com/sellerinformation/news/categorychanges/preview2023.html'
-        url = 'https://pages.ebay.com/sellerinformation/news/categorychanges/preview2023_09.html' #NEW CATEGORIES
+        url = 'https://pages.ebay.com/sellerinformation/news/categorychanges/preview2023.html'
+        # url = 'https://pages.ebay.com/sellerinformation/news/categorychanges/preview2023_09.html' #NEW CATEGORIES
 
         # Make a GET request to the URL
         response = requests.get(url)
